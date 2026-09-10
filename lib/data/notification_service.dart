@@ -38,7 +38,6 @@ class NotificationService {
             .resolvePlatformSpecificImplementation<
                 AndroidFlutterLocalNotificationsPlugin>();
         await impl?.requestNotificationsPermission();
-        await impl?.requestExactAlarmsPermission();
       }
       _initialized = true;
     } catch (e) {

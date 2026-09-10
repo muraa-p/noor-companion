@@ -48,3 +48,7 @@ app.*.map.json
 /android/key.properties
 *.jks
 *.keystore
+
+# Play Store card-frame templates (local-only, from Play Console)
+/Noor app frame/
+/Noor app frame.zip
